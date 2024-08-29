@@ -1,0 +1,97 @@
+/* styles.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(136, 45, 45);
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77a6b6 3px solid;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    font-size: 16px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-right: 1px #fff solid;
+}
+
+header nav ul li:last-child a {
+    border-right: none;
+}
+
+header h1 {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.section {
+    padding: 30px 0;
+}
+
+.section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.section .content,
+.section .projects-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section .content img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.section .projects-grid {
+    gap: 20px;
+}
+
+.project-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
